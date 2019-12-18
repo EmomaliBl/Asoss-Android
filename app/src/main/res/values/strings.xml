@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">asoss</string>
+    <string name="enter_name">Название товара</string>
+    <string name="enter_price">0</string>
+    <string name="add">START</string>
+    <string name="map_key">AIzaSyDZAKrHY368HiiNBG35jiiVVI-9Xb6v5zA</string>
+</resources>

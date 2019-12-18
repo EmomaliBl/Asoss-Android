@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "651623115939",
+    "firebase_url": "https://asoss-f569f.firebaseio.com",
+    "project_id": "asoss-f569f",
+    "storage_bucket": "asoss-f569f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651623115939:android:7e2761cad05b5de5f8e316",
+        "android_client_info": {
+          "package_name": "com.example.asoss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651623115939-c8cl2asorp6jvaq85j77a2tq4oi72407.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asoss",
+            "certificate_hash": "b4380260adeeffc64a0c98998d62bcfe1f37ed17"
+          }
+        },
+        {
+          "client_id": "651623115939-c01rp3jnfn7uarf2v2v2k4aqp6kjhj8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQFxDEikObPXNzTMuKHogcj9cqQ7SIKRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651623115939-c01rp3jnfn7uarf2v2v2k4aqp6kjhj8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

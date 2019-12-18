@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnLocationSettings"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickLocationSettings"
+        android:text="Геоданные"
+        android:textSize="14sp"></Button>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/add"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_small"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/enter_name" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:hint="@string/enter_price"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/tvTitleGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="provider_gps"
+        android:textSize="30sp"
+        android:visibility="invisible">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvEnabledGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/tvStatusGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/tvLocationGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/tvTitleNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="provider_network"
+        android:textSize="30sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/tvEnabledNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/tvStatusNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/tvLocationNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:visibility="invisible"></TextView>
+
+    <ListView
+        android:id="@+id/items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/padding_small"
+        android:padding="@dimen/padding_small"
+        android:visibility="invisible"
+        tools:listitem="@layout/items" />
+
+</LinearLayout>
